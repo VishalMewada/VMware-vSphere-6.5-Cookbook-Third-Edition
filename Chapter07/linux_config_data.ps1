@@ -1,4 +1,4 @@
-$cert = Get-ChildItem -Path Cert:\LocalMachine\Root\ | ? { $_.Subject -eq 'CN=dsc-box1' }
+$cert = Get-ChildItem -Path Cert:\LocalMachine\Root\ | ? { $_.Subject -eq 'CN=dsc-box1' } #Error
 
 $configData = @{
   AllNodes = @(
