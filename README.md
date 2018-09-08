@@ -17,29 +17,31 @@ Finally this book will cover Orchestrated VM Restart using HA, HTML5 vSphere Cli
 All of the code is organized into folders. For example, Chapter07.
 
 ```jsx
-<div id='tag_ora'></div>
-<script>
-// Clock script server-time, https://coursesweb.net
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add React in One Minute</title>
+  </head>
+  <body>
 
-// use php to get the server time
-var dt_serv = new Date(<?php echo date('y,n,j,G,i,s'); ?>);
+    <h2>Add React in One Minute</h2>
+    <p>This page demonstrates using React with no build tooling.</p>
+    <p>React is loaded as a script tag.</p>
 
-var ore = dt_serv.getHours(); //hour
-var minute = dt_serv.getMinutes(); //minutes
-var secunde = dt_serv.getSeconds(); //seconds
+    <!-- We will put our React component inside this div. -->
+    <div id="like_button_container"></div>
 
-// function that process and display data
-function jsClock(){
- secunde++;
- if(secunde>59){
- secunde = 0;
- minute++;
- }
- if(minute>59){
- minute = 0;
- ore++;
- }
- if(ore>23) ore = 0;
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+
+  </body>
+</html>
 
 ```
 
