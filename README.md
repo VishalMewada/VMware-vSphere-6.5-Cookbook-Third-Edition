@@ -1,6 +1,8 @@
 # VMware-vSphere-6.5-Cookbook-Third-Edition
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/dd3e527ae01c4764ad637bc0a33b679e)](https://app.codacy.com/app/mewaravishal/VMware-vSphere-6.5-Cookbook-Third-Edition?utm_source=github.com&utm_medium=referral&utm_content=VishalMewada/VMware-vSphere-6.5-Cookbook-Third-Edition&utm_campaign=Badge_Grade_Dashboard)
+[![GitHub issues](https://img.shields.io/github/issues/PacktPublishing/Deep-Learning-with-Keras.svg?style=popout)](https://github.com/PacktPublishing/Deep-Learning-with-Keras/issues)
+
 
 his is the code repository for [VMware vSphere 6.5 Cookbook - Third Edition](https://www.packtpub.com/virtualization-and-cloud/vmware-vsphere-65-cookbook-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787127418), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.
 
