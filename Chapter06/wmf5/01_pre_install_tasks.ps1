@@ -1,4 +1,4 @@
-############################################################################################
+
 ##
 ## From Learning PowerShell DSC (Packt)
 ## by James Pogran (https://www.packtpub.com/networking-and-servers/learning-powershell-dsc)
